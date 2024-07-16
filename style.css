@@ -24,10 +24,11 @@ body {
     background-color: white;
     display: -ms-grid;
     display: grid;
-    margin: 50px auto;
-    width: 400px;
-    height: 650px;
+    margin: 15px auto;
+    width: 350px;
+    height: 570px;
     border-radius: 1rem;
+    font-size: 14px;
 }
 .main-container .main-image {
     width: 100%;
@@ -43,9 +44,9 @@ h2 {
 .deal {
     position: relative;
     background-color: var(--Verypaleblue);
-    margin: 25px auto;
+    margin: 20px auto;
     width:300px;
-    height: 120px;
+    height: 100px;
     border-radius: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,7 +105,7 @@ button.payment {
     opacity: .7;
  }
  .order {
-    margin-top: 30px;
+    margin-top: 25px;
     font-weight: bold;
     -webkit-transition:  .2s ease-in-out;
     -o-transition:  .2s ease-in-out;
@@ -117,8 +118,10 @@ button.payment {
 
  @media all and (max-width: 450px) {
     .main-container {
-        width: 350px;
-        margin: 25px auto;
+        width: 90%;
+    }
+    .payment{
+        width: 90% !important;
     }
 }
 
